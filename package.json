@@ -1,0 +1,26 @@
+{
+  "name": "adaptive-barbershop",
+  "version": "1.0.0",
+  "description": "learning front course",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fivapr/adaptive-barbershop.git"
+  },
+  "author": "Fivapr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fivapr/adaptive-barbershop/issues"
+  },
+  "homepage": "https://github.com/Fivapr/adaptive-barbershop#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.4.0",
+    "gulp-plumber": "^1.1.0"
+  }
+}

@@ -1,0 +1,46 @@
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.main-nav__items,
+.main-nav__user-items {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+
+@media (min-width: 768px) {
+  .main-nav {
+    width: auto;
+    min-height: 70px;
+    margin: 0;
+  }
+
+  .main-nav__wrapper {
+    .container;
+    .clearfix;
+  }
+
+  .main-nav__items {
+  float: left;
+  width: 570px;
+  }
+
+  .main-nav__user-items {
+  float: right;
+  width: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav__items {
+    width: 780px;
+  }
+
+  .main-nav__user-items {
+    width: 160px;
+  }
+}
